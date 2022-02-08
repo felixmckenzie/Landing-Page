@@ -5,59 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing-Page</title>
+    <link rel="stylesheet" href="./stylesheet.css">
 </head>
 <body>
-    <div class="body">
+    
        
         <div class="header">
+           
             <nav class="nav-bar">
-                <ul class="left">
+                <ul id="logo">
                      <li>Header Logo</li>
                  </ul>
-                <ul class="right">
+                <ul class="nav-links">
                     <li><a href="google.com">About</a></li>
-                    <li><a href="google.com">Store</a></li>
+                    <li><a href="google.com">Search</a></li>
                     <li><a href="google.com">Settings</a></li>
                 </ul>
             </nav>
+
             <div class="hero-main">
-                <h1>This Website is Awesome</h1>
-                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-                <button>Sign Up</button>
-                <img src="" alt="">
+                <div class="hero-text-container">
+                <h1>Find Your Pal</h1>
+                <p class="hero-secondary-text">We help you find your perfect dog to adopt</p>
+                <button>Sign Up</button>  
+            </div>
+                 <img src="./doggo.jpg" alt="good boy" class="hero-image">
             </div>
         </div>
+
+
         <div class="info">
-            <h2>Some Random Information</h2>
+            <h2>Good Boys</h2>
+            <div class="card-container">
             <div class="card">
-                <img src="" alt="">
-                <p></p>
+                <img src="./BrownDog.jpg" alt="">
+                <p>Brown Kelpie</p>
             </div>
             <div class="card">
-                <img src="" alt="">
-                <p></p>
+                <img src="./Cavoodle.jpg" alt="">
+                <p>Cavoodle</p>
             </div>
             <div class="card">
-                <img src="" alt="">
-                <p></p>
+                <img src="./Golden.jpg" alt="">
+                <p>Golden Retriever</p>
             </div>
             <div class="card">
-                <img src="" alt="">
-                <p></p>
+                <img src="./Husky.jpg" alt="">
+                <p>Husky</p>
+            </div>
             </div>
         </div>
+
         <div class="quote">
-            <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice</p>
+            <p>
+                “Owners of dogs will have noticed that, if you provide them with food and water and shelter and affection, they will think you are god. Whereas owners of cats are compelled to realize that, if you provide them with food and water and shelter and affection, they draw the conclusion that they are gods.”
+            </p>
+            <div class="Author">- Christopher Hitchens</div>
          </div>
          <div class="footer">
+             
              <div class="footer-text">
                 <h3>Call To Action! It's Time!</h3>
-                <p>Sign up for our product by clicking that button over there!</p>
-                <button>Sign Up</button>
+                <p>Sign up for our product by clicking that button over there!
+                </p>
+                <button class="footer-btn">Sign Up</button>
              </div>
          </div>
 
-</div>
+
     
 </body>
 </html>
